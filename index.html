@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Películas de Terror</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>TOP 10 PELÍCULAS DE TERROR 0_0</h1>
+</header>
+
+<div class="container">
+
+   
+    <div class="sidebar">
+        <div class="buscador">
+         <input type="text" id="busqueda" placeholder="Buscar..." onkeyup="buscarPeliculas()">
+         </div>
+
+
+        <div class="card" onclick="mostarsinopsis(0)">
+            <img src="img/exorsista.jpg">
+            <h3>TOP 1:El Exorcista (1973)</h3>
+            <p>Clásico del terror sobre posesión demoníaca.</p>
+        </div>
+
+        <div class="card" onclick="mostarsinopsis(1)">
+            <img src="img/psicosis.jpg">
+            <h3>TOP 2:Psicosis (1960)</h3>
+            <p>Terror psicológico con escena icónica de la ducha.</p>
+        </div>
+
+        <div class="card" onclick="mostarsinopsis(2)">
+            <img src="img/resplandor.jpg">
+            <h3>TOP 3:El Resplandor (1980)</h3>
+            <p>Atmósfera opresiva y terror psicológico.</p>
+        </div>
+
+        <div class="card" onclick="mostarsinopsis(3)">
+            <img src="img/nochemuertos.jpg">
+            <h3>TOP 4:La Noche de los Muertos Vivientes (1968)</h3>
+            <p>Clásico que definió el género zombie moderno.</p>
+        </div>
+
+        <div class="card" onclick="mostarsinopsis(4)">
+            <img src="img/halloween.jpg">
+            <h3>TOP 5:Halloween (1978)</h3>
+            <p>Popularizó el slasher moderno.</p>
+        </div>
+
+        <div class="card" onclick="mostarsinopsis(5)">
+            <img src="img/alien.jpg">
+            <h3>TOP 6:Alien (1979)</h3>
+            <p>Terror claustrofóbico en el espacio.</p>
+        </div>
+
+        <div class="card" onclick="mostarsinopsis(6)">
+            <img src="img/Lacosa.jpg">
+            <h3>TOP 7:La Cosa (1982)</h3>
+            <p>Paranoia y efectos prácticos increíbles.</p>
+        </div>
+
+        <div class="card" onclick="mostarsinopsis(7)">
+            <img src="img/hereditary.jpg">
+            <h3>TOP 8:Hereditary (2018)</h3>
+            <p>Drama familiar con horror sobrenatural.</p>
+        </div>
+
+        <div class="card" onclick="mostarsinopsis(8)">
+            <img src="img/aro.jpg">
+            <h3>TOP 9:El Aro (1998)</h3>
+            <p>Clásico del J-horror.</p>
+        </div>
+
+        <div class="card" onclick="mostarsinopsis(9)">
+            <img src="img/It Follows.jpg">
+            <h3>TOP 10:It Follows (2014)</h3>
+            <p>Un ente que te sigue sin descanso.</p>
+        </div>
+    </div>
+
+
+    
+    <div class="details">
+
+        <img id="imagenDetalle" src="" alt="">
+        <h2 id="titulo">Selecciona una pelicula</h2>
+        <p id="descripcion"></p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
